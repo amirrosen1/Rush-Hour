@@ -1,0 +1,29 @@
+# Car Configuration Processor
+
+## Overview
+This project is designed to read car configurations from a JSON file and perform operations based on these
+ configurations. It simplifies the process of handling and manipulating car parameters for various applications.
+
+## Files Included
+- **car_config.json**: Contains the configurations for cars in a structured JSON format.
+- **helper.py**: A Python script that loads the JSON configurations and performs specified operations.
+
+## Setup and Usage
+1. **Clone the Repository**: Clone this repository to your local machine using `git clone` or download the ZIP file.
+2. **Install Python**: Ensure Python is installed on your system. This project is compatible with Python 3.x.
+3. **Run the Script**:
+    - Navigate to the project directory.
+    - Execute the script using the command:
+      ```bash
+      python helper.py
+      ```
+    - The script will load the configurations from `car_config.json` and process them accordingly.
+
+## Configuration File
+- **car_config.json**:
+  ```json
+  {
+    "O": [2, [2, 3], 0],
+    "R": [2, [3, 5], 1],
+    "B": [3, [1, 0], 0]
+  }
